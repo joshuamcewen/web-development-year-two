@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- No help this time - what do you need? -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('tr td').each(function(){
+				var rgb = $(this).css("background-color");
+				$(this).text(rgb);
+			});
+		});
+	</script>
+	</head>
+
+	<body>
+	<!-- Don't type any HTML here! You can solve this with jQuery! -->
+		<table>
+			<tr><td width="200" height="20" style="background: Chocolate" /></tr>
+			<tr><td width="200" height="20" style="background: Lavender" /></tr>
+			<tr><td width="200" height="20" style="background: MediumAquaMarine" /></tr>
+			<tr><td width="200" height="20" style="background: LemonChiffon" /></tr>
+			<tr><td width="200" height="20" style="background: Pink" /></tr>
+			<tr><td width="200" height="20" style="background: SeaGreen" /></tr>
+			<tr><td width="200" height="20" style="background: LightSlateGray" /></tr>
+			<tr><td width="200" height="20" style="background: Crimson" /></tr>
+		</table>
+
+	</body>
+</html>

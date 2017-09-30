@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- don't forget to include the jQuery library - refer to previous exercises to check -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- how do we ensure our jQuery code runs safely? Repeat that here -->
+		<!-- refer to your previous exercises to check -->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('table').css('border', '1px solid black');
+			$('table td').css('height', '40px');
+			$('table td').css('width', '40px');
+			$('table tr:nth-child(2n) td:nth-child(2n)').css('background', 'black');
+			$('table tr:nth-child(2n-1) td:nth-child(2n-1)').css('background', 'black');
+		});
+		</script>
+
+	</head>
+
+	<body>
+	<!-- Don't type any HTML here! You can solve this with jQuery! -->
+		<div>
+			<table class="chessboard">
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			</table>
+		</div>
+
+	</body>
+</html>
