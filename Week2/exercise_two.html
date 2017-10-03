@@ -12,10 +12,19 @@
 		<script>
 			$(document).ready(function() {
 				<!-- Add your jQuery here -->
+				$("p#one").before("<h1>Paragraph One</h1>");
 				$("p#one").css('color', 'red');
+
+				$("p#two").before("<h1>Paragraph Two</h1>");
 				$("p#two").css('color', 'yellow');
+
+				$("p#three").before("<h1>Paragraph Three</h1>");
 				$("p#three").css('color', 'green');
-				$("p.four").css('color', 'blue');
+
+				$("p.four").before("<h1>Paragraph Four</h1>");
+				$(".four").css('color', 'blue');
+
+				$("p#five").before("<h1>Paragraph Five</h1>");
 				$("p#five").css('color', 'pink');
 			});
 		</script>
