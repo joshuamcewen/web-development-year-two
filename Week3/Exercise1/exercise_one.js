@@ -11,17 +11,17 @@ $(document).ready(function() {
 
   // News toggle
   $('li#news').click(function(){
-    $('div#news').toggle();
+    $('div#news').fadeToggle();
   });
 
   // About us toggle
   $('li#aboutus').click(function(){
-    $('div#aboutus').toggle();
+    $('div#aboutus').fadeToggle();
   });
 
   // Contact us toggle
   $('li#contactus').click(function(){
-    $('div#contactus').toggle();
+    $('div#contactus').fadeToggle();
   });
 
 });
